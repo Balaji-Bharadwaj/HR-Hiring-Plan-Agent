@@ -90,9 +90,7 @@ The application guides the user through a series of steps to generate a hiring p
 ## Project Structure
 
 ├── Backend/
-
 │ ├── main.py # FastAPI application, LangChain agent, and tools
-
 │ ├── .env.example # Environment variable template
 
 │ └── requirements.txt # Python dependencies
