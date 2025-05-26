@@ -17,10 +17,6 @@ Please find the sample prompts in Sample_Prompts.txt
 *   [Setup and Installation](#setup-and-installation)
     *   [Backend (FastAPI)](#backend-fastapi)
     *   [Frontend (React)](#frontend-react)
-*   [Running the Application](#running-the-application)
-    *   [Development Mode](#development-mode)
-    *   [Production-like (Serving Frontend via Backend)](#production-like-serving-frontend-via-backend)
-*   [Environment Variables](#environment-variables)
 *   [API Endpoints](#api-endpoints)
 *   [Contributing](#contributing)
 *   [License](#license)
@@ -90,7 +86,9 @@ The application guides the user through a series of steps to generate a hiring p
 ## Project Structure
 
 ├── Backend/
+
 │ ├── main.py # FastAPI application, LangChain agent, and tools
+
 │ ├── .env.example # Environment variable template
 
 │ └── requirements.txt # Python dependencies
@@ -127,9 +125,74 @@ The application guides the user through a series of steps to generate a hiring p
 ## Prerequisites
 
 *   Node.js (v18.x or later recommended) and npm/yarn.
-*   Python (v3.9 or later recommended) and pip.
+*   Python (v3.10 or later recommended) and pip.
 *   A Google Cloud Project with the Vertex AI API enabled.
 *   A `GOOGLE_API_KEY` for accessing the Gemini models (obtained from Google AI Studio or Google Cloud Console).
+
+
+## Setup and Installation
+
+### 1. Clone the Repository
+
+```bash
+git clone https://Balaji-Bharadwaj/HR-Hiring-Plan-Agent.git
+cd HR-Hiring-Plan-Agent
+```
+
+### 2. Backend (FastAPI)
+Navigate to the Backend directory:
+
+```bash
+cd Backend
+```
+
+### a. Create and Activate a Virtual Environment (Recommended):
+
+```bash
+
+# For Linux/macOS
+python3 -m venv venv
+source venv/bin/activate
+
+# For Windows
+python -m venv venv
+.\venv\Scripts\activate
+```
+
+### b. Install Python Dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+### c. Set Up Environment Variables:
+
+Create a .env file in the Backend directory
+
+```bash
+cp .env .env
+```
+
+Open the .env file and add your Google API Key:
+
+```bash
+GOOGLE_API_KEY="YOUR_GOOGLE_API_KEY_HERE"
+```
+
+### 3. Frontend (React)
+
+Navigate to the Frontend directory from the project root:
+
+```bash
+cd ../Frontend
+```
+
+Install Node.js Dependencies:
+
+```bash
+npm install # Using npm
+yarn install # Using yarn
+```
 
 ## API Endpoints
 
