@@ -1,0 +1,27 @@
+Sample 1: Moderately Detailed
+
+We are looking to hire a Senior Machine Learning Engineer for our early-stage startup focused on developing AI-powered solutions for the e-commerce industry. The ideal candidate should have strong Python skills, hands-on experience building and deploying machine learning models, and familiarity with cloud platforms, preferably AWS. They will be responsible for the end-to-end lifecycle of ML models, from data preprocessing to deployment and monitoring. Experience with NLP and recommendation systems would be a big plus.
+
+Follow up prompts: 
+
+The engineer will primarily work with a mix of classical machine learning algorithms and deep learning models. Key areas include developing and improving our product recommendation engine (so collaborative filtering, content-based filtering, and potentially hybrid models using deep learning approaches like two-tower models). They will also be involved in customer segmentation using clustering algorithms (e.g., K-Means, DBSCAN) and building predictive models for customer churn (e.g., logistic regression, gradient boosting machines like XGBoost, or simpler neural networks). While direct work with large language models (LLMs) isn't the immediate priority for this specific role, experience with NLP techniques for product description analysis, sentiment analysis from customer reviews, and feature extraction from text will be highly valuable. So, familiarity with libraries like NLTK, spaCy, Scikit-learn for NLP tasks, and TensorFlow/Keras or PyTorch for any deep learning components is expected.
+
+For the 'Senior' level, we are looking for someone with at least 5-7 years of hands-on experience in machine learning model development and deployment. At least 3 of those years should involve significant experience with cloud platforms, ideally AWS, including services like SageMaker, S3, Lambda, and EC2/ECS for model deployment and MLOps. Experience applying ML in an e-commerce or related B2C digital product environment would be highly preferred. This role will report directly to the Head of Data Science. Initially, they will not have direct reports but will be expected to mentor junior engineers and data scientists as the team grows. They should be capable of leading projects independently.
+
+Key performance indicators for the first 6-12 months will include:
+1. Successfully deploying and A/B testing at least two new versions of the product recommendation engine, aiming for a measurable uplift (e.g., 10-15% increase) in click-through rates or conversion rates from recommendations.
+2. Developing and deploying a v1 customer churn prediction model with a defined accuracy/F1 score target (e.g., F1 > 0.75).
+3. Improving the efficiency of our model training pipelines, potentially reducing training time or cost by 10-20%.
+4. Establishing a more robust monitoring framework for at least two key production models.
+
+Regarding the budget, we have allocated a competitive salary range for a Senior ML Engineer in our region, commensurate with experience, typically between $150,000 - $190,000 annually, plus equity options as we are an early-stage startup.
+
+
+Sample 2: Specific Niche (Tests Understanding of Specialization)
+
+Our biotech startup requires a Bioinformatics Scientist with experience in genomic data analysis and developing machine learning algorithms for drug discovery. Proficiency in Python and R is essential, along with experience using tools like Bioconductor and cloud environments like GCP for large-scale data processing. The role involves collaborating with wet-lab scientists.
+
+
+Sample 3: Focus on Soft Skills / Leadership (Implicit Technical Need)
+
+We need a technical lead for our new AI platform team. This person must be excellent at mentoring junior engineers, defining technical roadmaps, and communicating with stakeholders. They will be building a team from the ground up. While they need a strong technical background in AI/ML, the immediate focus is on leadership and architecture.
