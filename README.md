@@ -2,6 +2,10 @@
 
 An AI-powered FastAPI backend and React frontend application that automates the creation of comprehensive hiring plans for HR professionals using LangChain tools and Google Gemini Pro.
 
+You can access the application with the following URL: https://hragent-793025276323.us-central1.run.app/
+
+Please find the sample prompts in Sample_Prompts.txt
+
 
 ## Table of Contents
 
